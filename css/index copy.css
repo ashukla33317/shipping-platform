@@ -1,0 +1,334 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* main */
+
+/* fcl_shipment */
+
+ main .fcl_shipment{
+    width: 100%;
+    background: linear-gradient(rgba(213, 238, 243, 0.404),rgba(187, 237, 245, 0.452)),url("../images/containers_front.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 700px;
+    height:700px;
+}
+
+main .fcl_shipment{
+   text-align: center;
+   display: block;
+   padding:11% 0 0 0;
+}
+
+
+main .fcl_shipment h1{
+  font-size: 3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(182, 238, 238);
+  background-color: black;
+  margin: 3% 14%;
+}
+main .fcl_shipment p{
+   font-size: 1.4rem;
+   padding: 0 20%;
+   color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 3% 0;
+}
+
+main .fcl_shipment  a{
+   color: rgb(0, 0, 0);
+   font-size: 1.4rem;
+   padding: 1%;
+   background-color: rgb(182, 238, 238);
+   text-decoration: none;
+   font-style:inherit;
+   border-radius: 10px;
+   background: linear-gradient(rgba(155, 201, 201, 0.582),rgba(160, 218, 233, 0.486),rgba(73, 187, 216, 0.849));
+}
+
+
+main .fcl_shipment a:hover{
+    color: rgb(12, 25, 204);
+}
+
+main .fcl_shipment  a i{
+    color: black;
+    font-size: 1.5rem;
+}
+
+main .fcl_shipment  a i:hover{
+    color: rgb(252, 252, 252);
+}
+
+main .fcl_shipment ul{
+    text-align: center;
+    display: flex;
+    justify-content:space-evenly;
+    list-style: none;
+    padding: 10%;
+}
+    
+
+
+main .fcl_shipment  ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    
+}
+
+main .fcl_shipment ul li span i{
+    color: green;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+
+main .fcl_shipment{
+    padding: 25% 0 0 0;
+}
+    
+
+main .fcl_shipment h1{
+   font-size: 2rem;
+
+}
+
+main .fcl_shipment p{
+    font-size: 1.2rem;
+    margin: 10% 0;
+}
+
+
+
+
+
+
+
+main .fcl_shipment ul{
+    text-align: center;
+    display: block;
+}
+    
+}
+
+
+
+/* conatainer_shipment */
+
+
+
+/* fcl conatiner */
+
+/* container_drop_dwn */
+
+main .container_drop_dwn{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: url(../images/wave7.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .container_drop_dwn div .div_i{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_i i{
+    font-size: 2rem;
+}
+
+main .container_drop_dwn div span i{
+    font-size: 10vw;
+    color: rgb(169, 226, 226);
+}
+
+main .container_drop_dwn div h1{
+    font-size:2rem ;
+}
+
+
+/* drop containt */
+
+main .drop_containt{
+   
+    width: 60%;
+    margin: 2% auto;
+}
+
+main .drop_containt #drop_div{
+    margin: 5% auto;
+    border: 2px solid rgb(6, 53, 54);
+    background-color:rgb(182, 238, 238);
+    border-radius: 1%;
+    text-align: left;
+    padding: 2%;
+}
+
+main .drop_containt #drop_div h1{
+    font-size: 1.5vw;
+    color:rgb(0, 0, 0);
+    cursor: pointer;
+    
+}
+
+
+
+main .drop_containt #drop_div p{
+    font-size: 1.5vw;
+    display: none;
+    color:rgb(0, 0, 0);
+    margin: 4%;
+}
+
+
+@media screen and (max-width:800px) {
+    
+main .drop_containt{
+    /* border: 2px solid rgb(236, 3, 3); */
+    width: 80%;
+    margin: 4% auto;
+}
+
+main .drop_containt #drop_div{
+    margin: 7% auto;
+}
+
+main .drop_containt #drop_div h1{
+    font-size: 3vw;
+    cursor: pointer;
+    
+}
+
+main .drop_containt #drop_div p{
+    font-size: 2.1vw;
+    display: none;
+}
+
+}
+
+
+
+
+main .form_part_container{
+    /* background-color: red; */
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    
+}
+
+main .form_part_container span i{
+    font-size: 10rem;
+    color: rgb(9, 122, 156);
+}
+
+main .form_part_container h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(36, 196, 196);
+}
+
+main .form_part_container p{
+    font-size: 1.2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+main .form_part_container form{
+    width: 100%;
+
+    margin: 1% auto;
+}
+
+main .form_part_container form input{
+    width: 40%;
+    height: 40px;
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+main .form_part_container form #section{
+    width: 5%;
+    height: 40px;
+    font-size: 0.9rem;
+}
+
+main .form_part_container form #number{
+    width: 34.70%;
+}
+
+
+main .form_part_container button{
+    width: 14rem;
+    height: 2.5rem;
+    margin: 1% auto;
+    color: rgb(0, 0, 0);
+    background-color:rgb(182, 238, 238);
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(rgba(155, 201, 201, 0.582),rgba(160, 218, 233, 0.486),rgba(73, 187, 216, 0.849));
+}
+
+
+main .form_part_container button:hover{
+    color: blue;
+    /* background-color: aquamarine; */
+}
+
+main .form_part_container button i{
+    color: rgb(0, 0, 0);
+}
+
+main .form_part_container h5{
+    font-size: 0.9rem;
+}
+
+@media screen and (max-width:550px) {
+
+main .form_part_container form{
+    width: 100%;
+    margin: 1% auto;
+}
+
+main .form_part_container form input{
+    width: 70%;
+    height: 40px;
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+main .form_part_container form #section{
+    width: 15%;
+    height: 40px;
+    font-size: 0.9rem;
+}
+
+
+main .form_part_container form #number{
+    width: 54.70%;
+}
+
+
+
+
+
+main .form_part_container button{
+    width: 12rem;
+    height: 2.5rem;
+    margin: 2% auto;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+    
+}
